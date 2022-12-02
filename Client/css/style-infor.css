@@ -1,0 +1,315 @@
+/* box-middle */
+
+.box-middle {
+    position: relative;
+    background-image: url("../img/room-10.jpg");
+    background-attachment: fixed;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-middle>.background-middle-img {
+    background-image: linear-gradient(0, rgba(0, 0, 0, 0.95), transparent);
+}
+
+.background-middle-img {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.middle-top {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    left: 0;
+    z-index: 2;
+}
+
+.middle-top-left h2,
+.middle-top-right h2 {
+    font-family: "Old Standard TT";
+    color: whitesmoke;
+    font-size: 36px;
+    margin: 0;
+}
+
+.middle-top-left p,
+.middle-top-right p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.middle-top-right {
+    text-align: end;
+}
+
+
+/* box-middle-2 */
+
+.box-middle-2 {
+    padding-bottom: 100px;
+    padding-top: 80px;
+}
+
+
+/* middle-2-left */
+
+.middle-2-left-1 {
+    margin-top: 30px;
+    border: 1px solid #eaeaea;
+}
+
+.middle-2-left-1 h5 {
+    color: #111;
+    font-size: 16px;
+    padding: 17px 20px;
+    margin-bottom: 0;
+}
+
+.middle-2-left-1>p {
+    font-weight: 300;
+    padding: 15px 20px 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+/* .middle-2-left-2 */
+
+.middle-2-left-2-img {
+    position: relative;
+}
+
+.middle-2-left-2-img .mySlides img {
+    transition: 0.5s;
+    height: 380px;
+}
+
+.middle-2-left-2-img>.row {
+    margin: 0;
+}
+
+.middle-2-left-2-img>.row .column {
+    padding: 5px;
+}
+
+.middle-2-left-2-img>.row img {
+    height: 100%;
+    transition: 0.5s all;
+}
+
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    transition: 0.5s all;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* Container for image text */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Six columns side by side */
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+
+/* Add a transparency effect for thumnbail images */
+
+.demo {
+    opacity: 0.8;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+
+/* .middle-2-left-3 */
+
+.middle-2-left-3 {
+    margin-top: 30px;
+}
+
+.middle-2-left-3>nav a {
+    color: #111;
+    font-size: 16px;
+}
+
+.middle-2-left-3>nav a:hover,
+.middle-2-left-3>nav a:focus {
+    color: #666666;
+}
+
+.middle-2-left-3>.tab-content {
+    padding: 15px 20px 30px;
+    border: 1px solid #eaeaea;
+    border-top: unset;
+}
+
+.left-3-overview p {
+    font-weight: 300;
+    color: #111;
+    margin-right: 5px;
+}
+
+.left-3-features i {
+    color: #caa67a;
+    margin-right: 8px;
+}
+
+
+/* middle-2-right */
+
+.middle-2-right-1 {
+    border: 1px solid #eaeaea;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.middle-2-right-1 h5 {
+    color: #111;
+    font-size: 16px;
+    padding: 17px 20px;
+    margin-bottom: 0;
+}
+
+.middle-2-right-1>.row {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.middle-2-right-1>.row .middle-2-right-input {
+    padding-top: 17px;
+}
+
+.middle-2-right-1>.row .middle-2-right-input>.form-group {
+    margin-bottom: 0;
+}
+
+.middle-2-right-1>.row .middle-2-right-input input:focus {
+    box-shadow: unset;
+}
+
+.middle-2-right-1>.row .middle-2-right-input button {
+    background: #c7b39a;
+    border-color: #c7b39a;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.middle-2-right-1>.row .middle-2-right-input button:hover,
+.middle-2-right-1>.row .middle-2-right-input button:focus {
+    background: #caa67a;
+    border-color: #caa67a;
+    color: white;
+    box-shadow: unset;
+}
+
+@media only screen and (max-width:768px) {
+    .middle-2-right-1 {
+        margin-top: 30px;
+    }
+}
+
+
+/* .middle-2-left-4 */
+
+.middle-2-left-4 {
+    margin-top: 30px;
+}
+
+.middle-2-left-4 a {
+    background: #c7b39a;
+    border-color: #c7b39a;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.middle-2-left-4 a:hover,
+.middle-2-left-4 a:focus {
+    background: #caa67a;
+    border-color: #caa67a;
+    color: white;
+    box-shadow: unset;
+}
