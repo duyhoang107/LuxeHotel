@@ -1,0 +1,152 @@
+* {
+   margin: 0;
+   padding: 0;
+   font: 14px/16px Roboto, sans-serif;
+}
+
+.box-login {
+   background-image: url(https://free4kwallpapers.com/uploads/originals/2020/08/25/the-bellagio-and-the-las-vegas-strip-at-dusk-wallpaper.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 100vh;
+}
+
+.box-login>.container {
+   position: absolute;
+   top: 0px;
+   right: 0;
+   left: 0;
+   z-index: 99;
+}
+
+.box-login>.background-color {
+   background-color: #26262657;
+}
+
+.background-color {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+.login {
+   text-align: center;
+   margin-top: 40%;
+   border-radius: 5px;
+   background: #0000009e;
+   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.36);
+   color: #fff;
+   padding: 32px;
+}
+
+.login>a {
+   color: tomato;
+   text-decoration: none;
+}
+
+.login>a:hover {
+   color: #fd4d2e;
+}
+
+.login .box-login-input {
+   margin-top: 25px;
+}
+
+.login .box-login-input input {
+   font-size: 17px;
+   height: 40px;
+}
+
+.login .box-login-input input:focus,
+.login .box-login-input input:hover {
+   border-color: tomato;
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #ff63476e;
+}
+
+.login .box-login-btn {
+   text-align: center;
+   padding-top: 1rem;
+}
+
+.login .box-login-btn a {
+   background: none;
+   color: white;
+   border-color: white;
+   transition: 0.5s;
+}
+
+.login .box-login-btn a:hover {
+   color: #e7e7e7;
+   border-color: #e7e7e7;
+   transform: scale(1, 1);
+   -webkit-transform: scale(1.2, 1.2);
+}
+
+.login .auth-sep {
+   line-height: 20px;
+   display: block;
+   position: relative;
+}
+
+.login .auth-sep::before,
+.login .auth-sep::after {
+   border-top: solid 1px #fff;
+   content: "";
+   height: 1px;
+   width: 35%;
+   display: table-cell;
+}
+
+.login .auth-sep>span>span {
+   font-size: 16px;
+   display: block;
+}
+
+.login .link-icon-login {
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.login .link-icon-login .icon-login {
+   border-radius: 9px;
+   display: flex;
+   width: 40px;
+   justify-content: center;
+   align-items: center;
+   padding: 8px;
+}
+
+.login .link-icon-login .icon-left {
+   background: #3b5998;
+   margin-right: 15px;
+   transition: 0.5s;
+}
+
+.login .link-icon-login .icon-left:hover,
+.login .link-icon-login .icon-right:hover {
+   transform: scale(1, 1);
+   -webkit-transform: scale(1.2, 1.2);
+}
+
+.login .link-icon-login .icon-right {
+   background: #dd4b39;
+   transition: 0.5s;
+}
+
+.login .link-icon-login a {
+   text-decoration: none;
+}
+
+.login .link-icon-login a i {
+   font-size: 24px;
+}
+
+.login .link-icon-login a .icon {
+   color: white;
+}
