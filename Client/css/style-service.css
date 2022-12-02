@@ -1,0 +1,151 @@
+.box-middle {
+    position: relative;
+    background-image: url("../img/food-1.jpg");
+    background-attachment: fixed;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-middle>.background-middle-img {
+    background-image: linear-gradient(0, rgba(0, 0, 0, 0.95), transparent);
+}
+
+.background-middle-img {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.middle-top {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    left: 0;
+    z-index: 2;
+}
+
+.middle-top-center {
+    text-align: center;
+}
+
+.middle-top-center h2 {
+    font-family: "Old Standard TT";
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.middle-top-center small {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.79);
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+
+/* .box-middle-2 */
+
+.box-middle-2 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.middle-2-left p {
+    font-size: 20px;
+    line-height: 1.7em;
+    text-align: left;
+    color: #3d3d3de3;
+}
+
+.middle-2-right p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7em;
+    text-align: left;
+    color: #666666;
+}
+
+
+/* box-middle-3 */
+
+.box-middle-3 .card {
+    border: unset;
+}
+
+.body-middle-item {
+    background: #f2f2f2;
+}
+
+.body-middle-item .middle-img img {
+    height: 500px;
+    border-radius: 0;
+}
+
+.middle-text {
+    margin: auto;
+}
+
+.middle-text .middle-text-item {
+    margin: auto;
+    width: 70%;
+}
+
+.middle-text h5 {
+    font-size: 48px;
+    color: #111;
+    font-family: "Old Standard TT";
+}
+
+.middle-text p {
+    font-weight: 300;
+    color: #666;
+}
+
+.middle-text button a {
+    color: white;
+}
+
+.middle-text button {
+    background: #c7b39a;
+    border-color: #c7b39a;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 6px 30px;
+}
+
+.middle-text button:hover {
+    background: #be986a;
+    border-color: #be986a;
+    color: white;
+    box-shadow: none;
+}
+
+
+/* .box-middle-4 */
+
+.box-middle-4 {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.box-middle-4 .middle-4 {
+    text-align: center;
+}
+
+.box-middle-4 p {
+    font-size: 21px;
+}
+
+.box-middle-4 h4 {
+    color: #c7b39a;
+}
+
+.box-middle-4 h4 i {
+    margin-left: 10px;
+    color: #c7b39a;
+}
