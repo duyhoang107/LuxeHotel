@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #666;
+    line-height: 1.7em;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    font-family: "Helvetica" !important;
+    position: relative;
+    font-size: 14px;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.box-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.box-header .box-menu {
+    background-color: #111111;
+    border-color: #111111;
+}
+
+.box-menu .container>.btn-menu-mini>button {
+    background: #c7b39a;
+    height: 26px;
+    width: 29px;
+    margin-right: 20px;
+    font-size: 15px;
+    outline: none;
+}
+
+.box-menu .container>.btn-menu-mini>button i {
+    color: #fff;
+}
+
+@media only screen and (max-width:768px) {
+    .box-menu .menu-item {
+        padding-left: 0px;
+    }
+    .box-menu .menu-item .menu-list-item .drop-menu .drop-menu-item {
+        width: 100%;
+    }
+    .box-menu .container>.btn-menu-mini {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-menu .container>.btn-menu-mini>button {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.box-menu .container>button i {
+    color: #fff;
+    font-size: 14px;
+}
+
+.menu-item {
+    padding-left: 60px;
+}
+
+.menu-item .menu-list-item li a {
+    color: #bbbbbb !important;
+    padding: 15px 8px;
+    font-weight: 500;
+}
+
+.menu-item .menu-list-item li:hover {
+    background: whitesmoke;
+}
+
+.menu-item .menu-list-item li a:hover {
+    color: #585858 !important;
+}
+
+.menu-item .menu-list-item .drop-menu .drop-menu-item {
+    display: none;
+    margin: 0;
+    padding: 9px 0;
+    width: 198px;
+}
+
+.menu-item .menu-list-item .drop-menu:hover .drop-menu-item {
+    display: block;
+}
+
+.menu-item .menu-list-item .drop-menu .drop-menu-item a i {
+    margin-right: 10px;
+}
+
+.menu-item .menu-list-item .drop-menu .drop-menu-item a {
+    color: #666 !important;
+    font-size: 14px;
+}
+
+.menu-item .menu-list-item .drop-menu .drop-menu-item a:hover {
+    background-color: #c7b39a;
+    color: #fff !important;
+}
+
+.box-menu .btn-book-now {
+    background: #c7b39a;
+    border-color: #c7b39a;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 6px 30px;
+}
+
+.box-menu .btn-book-now a {
+    color: white;
+}
+
+.box-menu .btn-book-now:hover,
+.box-menu .btn-book-now:focus {
+    background: #be986a;
+    border-color: #be986a;
+    color: white;
+    box-shadow: none;
+}
+
+
+/* .box-body */
+
+.box-body {
+    /* padding-top: 69px; */
+    min-height: calc(100vh - 381px);
+}
