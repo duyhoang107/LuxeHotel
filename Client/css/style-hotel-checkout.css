@@ -1,0 +1,88 @@
+.box-body {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.top-titles {
+    margin-top: 20px;
+}
+
+.body-middle {
+    margin-top: 20px;
+}
+
+.body-middle-table-1 {
+    width: 100%;
+}
+
+.body-middle-table-1 tbody input {
+    border: none;
+}
+
+.body-middle-table-1 tbody select {
+    border: none;
+}
+
+.tr {
+    text-align: center;
+}
+
+.a {
+    color: black;
+}
+
+.a:hover {
+    color: silver;
+}
+
+.left-side {
+    text-align: left;
+}
+
+.button-item {
+    font-size: 10px;
+    padding: 8px 5px;
+    width: 100%;
+    background-color: #c7b39a;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .2s opacity;
+    outline: unset;
+    box-shadow: none !important;
+}
+
+.button-item:hover {
+    background-color: #caa67a;
+    outline: unset;
+    box-shadow: none !important;
+}
+
+.right-side {
+    text-align: right;
+}
+
+.card-2 {
+    margin: 0;
+}
+
+.body-middle-2-card {
+    border: 1px solid gray;
+    width: 100%;
+    height: auto;
+}
+
+.col-12 .col-lg-6 .col-button {
+    padding: 20px;
+}
+
+.form-control {
+    margin-top: 17px;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    border-color: #caa67a;
+}
